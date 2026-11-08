@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "timlyrics",
+  "version": "${version}",
+  "name": "TimLyrics",
+  "description": "TimSesBot'ta çalan şarkının sözlerini oyunda, herkes için aynı yerde havada gösterir.",
+  "authors": ["Tim"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.timses.lyrics.TimLyricsClient"] },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
